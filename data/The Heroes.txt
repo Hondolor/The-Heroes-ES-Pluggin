@@ -376,7 +376,7 @@ government "That Guy"
 	swizzle 5
 	"player reputation" 1
 
-ship "Origianl Korath World-Ship"
+ship "Original Korath World-Ship"
 	sprite "ship/Original World Ship"
 	attributes
 		category "Heavy Freighter"
@@ -432,7 +432,7 @@ person "That Guy"
 	phrase
 		word
 			"Look for me on Steam!"
-	ship "Origianl Korath World-Ship" "That Guy's Ship"
+	ship "Original Korath World-Ship" "That Guy's Ship"
 		sprite "ship/Original World Ship"
 		"never disabled"
 		attributes
