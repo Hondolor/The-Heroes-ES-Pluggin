@@ -151,7 +151,7 @@ ship "S-Kestrel"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "Matthew Smestad's custom Kestrel. Check out my others mods on the Steam and Google discussion pages!"
+	description "Matthew Smestad's custom Kestrel. Check out my other mods on the Steam and Google discussion pages!"
 
 person "Matthew Smestad"
 	government "Matthew Smestad"
