@@ -1,4 +1,4 @@
-government "Captain Wyvern"
+government "Explorer"
 	swizzle 3
 	color .06 .68 0
 
@@ -59,7 +59,7 @@ ship "Mega Bactrian"
 	turret -45.5 -179 "Heavy Anti-Missile Turret"
 	turret -45.5 -135.5 "Heavy Anti-Missile Turret"
 	turret -1 -107 "Heavy Anti-Missile Turret"
-	turret 44.5 -80 "Heavy Anti-Missile Turret""Heavy Anti-Missile Turret"
+	turret 44.5 -80 "Heavy Anti-Missile Turret"
 	turret -51.5 -31.5 "Heavy Laser Turret"
 	turret 36 -15.5 "Heavy Laser Turret"
 	turret -66 147.5 "Heavy Laser Turret"
@@ -71,7 +71,7 @@ ship "Mega Bactrian"
 	
 person "Captain Wyvern"
 	"player reputation" 1
-	government "Captain Wyvern"
+	government "Explorer"
 	frequency 300
 	personality
 		heroic
@@ -104,10 +104,6 @@ person "Captain Wyvern"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-government "Matthew Smestad"
-	swizzle 0
-	color .0 .0 0
-	
 ship "S-Kestrel"
 	sprite ship/sKestrel
 	attributes
@@ -154,7 +150,7 @@ ship "S-Kestrel"
 	description "Matthew Smestad's custom Kestrel. Check out my other mods on the Steam and Google discussion pages!"
 
 person "Matthew Smestad"
-	government "Matthew Smestad"
+	government "Author"
 	frequency 800
 	personality
 		plunders
@@ -176,7 +172,7 @@ person "Matthew Smestad"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-government "Captain Evens"
+government "Defender of Humanity"
 	swizzle 3
 	color .2 .5 5
 
@@ -244,7 +240,7 @@ ship "Dragoon"
 
 
 person "Captain Evens"
-	government "Captain Evens"
+	government "Defender of Humanity"
 	"player reputation" 10
 	frequency 300
 	personality
@@ -377,7 +373,7 @@ person "toilethinges"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-government "That Guy"
+government "Troll"
 	swizzle 5
 	"player reputation" 1
 
@@ -431,7 +427,7 @@ ship "Original Korath World-Ship"
 	description "Korath World-Ships are mobile habitats cobbled together from asteroids."
 
 person "That Guy"
-	government "That Guy"
+	government "Troll"
 	personality
 		plunders
 	phrase
