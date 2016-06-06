@@ -373,7 +373,7 @@ person "toilethinges"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-government "Troll"
+government "Da Bezt Person"
 	swizzle 5
 	"player reputation" 1
 
@@ -427,13 +427,13 @@ ship "Original Korath World-Ship"
 	description "Korath World-Ships are mobile habitats cobbled together from asteroids."
 
 person "That Guy"
-	government "Troll"
+	government "Da Bezt Person"
 	personality
 		plunders
 	phrase
 		word
 			"Look for me on Steam!"
-	ship "Original Korath World-Ship" "That Guy's Ship"
+	ship "Original Korath World-Ship" "bezt sheep evuhr"
 		sprite "ship/Original World Ship"
 		"never disabled"
 		attributes
@@ -482,9 +482,3 @@ person "That Guy"
 		explode "big explosion" 40
 		explode "huge explosion" 50
 		description "Korath World-Ships are mobile habitats cobbled together from asteroids."
-	
-
-
-
-
-			
