@@ -77,12 +77,12 @@ person "Captain Wyvern"
 		heroic
 	phrase
 		word
-			"I've just visited the alien's of the North East. Friendly folk"
-			"I've just returned from a battle with the Korath in the East. Stay clear of them!"
-			"I've just fought off some Northern Pirates. Pesky lot, them!"
-			"I've just had a battle with some Southern Pirates. Disorganized brigands!"
-			"Have you seen that mysterious system South of the Altair system. It's supposedly uninhabbited."
-			"Maybe one day, you'l have a ship as impressive as mine. It's not likely though."		
+			"I've just visited the aliens of the north east. Friendly folk."
+			"I've just returned from a battle with aliens in the Core. Stay clear of them!"
+			"I've just fought off some of the powerful northern pirates. Pesky lot, them!"
+			"I've just had a battle with the unsystematic Southern Pirates. Disorganized brigands!"
+			"Have you seen that mysterious system South of the Altair system? It's supposedly uninhabited."
+			"Maybe, one day, you'll have a ship as impressive as mine. It's not likely, though."		
 	ship "Mega Bactrian" "Mega Bactrian"
 		"never disabled"
 		outfits
@@ -102,7 +102,7 @@ person "Captain Wyvern"
 			"Heavy Anti-Missile Turret" 4
 			"Heavy Laser Turret" 4
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 government "Matthew Smestad"
 	swizzle 0
@@ -151,7 +151,7 @@ ship "S-Kestrel"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "Matthew Smestads custom Kestrel. Check out my others mods on the Steam and Google discussion page's!"
+	description "Matthew Smestad's custom Kestrel. Check out my others mods on the Steam and Google discussion pages!"
 
 person "Matthew Smestad"
 	government "Matthew Smestad"
@@ -174,7 +174,7 @@ person "Matthew Smestad"
 			"X5200 Ion Steering"
 			"Hyperdrive"
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 government "Captain Evens"
 	swizzle 3
@@ -240,7 +240,7 @@ ship "Dragoon"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "Few ships of this scale have ever been devised, the Dragoon's massive frame is enough to eclipes a planet's sun and leave a continent in darkness.
+	description "Few ships of this scale have ever been devised. The Dragoon's massive frame is enough to eclipes a planet's sun and leave a continent in darkness."
 
 
 person "Captain Evens"
@@ -252,11 +252,12 @@ person "Captain Evens"
 	phrase
 		word
 			"I'm here to protect the people."
-			"Space is a dangerous place. Lets Try to make it less so."
-			"I protect Human Space."
+			"Endless space is a dangerous place. Lets try to make it less so."
+			"I protect all of Human space."
 			"Pirates be warned! I am Captain Evens!"
-			"I will not tollerate Piracy!"
+			"I will not tolerate Piracy!"
 	ship "Dragoon" "Dragoon"
+		"never disabled"
 		outfits
 			"Torpedo Launcher" 5
 			"Torpedo" 150
@@ -269,7 +270,7 @@ person "Captain Evens"
 			"X5200 Ion Steering"
 			"Hyperdrive"
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 government "hingeCorp"
 	swizzle 5
@@ -306,7 +307,7 @@ person "toilethinges"
 			" on steampowered.com."
 			" on Steam."
 		word
-			` Just go to groups, and search "hingeCorp."`
+			` Just go to groups, and search 'hingeCorp.'`
 	phrase
 		word
 			`Join "hingeCorp" now!`
@@ -314,6 +315,7 @@ person "toilethinges"
 			" Just search for it in the Steam groups section, and you'll find it."
 	ship "Korath World-Ship" "h.C.S. Chrysoprase"
 		sprite "ship/world-ship a"
+		"never disabled"
 		attributes
 			category "Heavy Warship"
 			cost 27690000
@@ -341,7 +343,7 @@ person "toilethinges"
 			"Pug Gridfire Turret" 8
 			"Korath Detainer"
 			"Korath Piercer Launcher" 2
-			"Korath Piercer" 10000
+			"Korath Piercer" 1000
 			"Pug Biodefenses" 800
 		crew 794
 		fuel 600
@@ -368,7 +370,7 @@ person "toilethinges"
 		explode "huge explosion" 50
 		explode "tiny explosion" 30
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 government "That Guy"
 	swizzle 5
@@ -424,7 +426,7 @@ ship "Origianl Korath World-Ship"
 	description "Korath World-Ships are mobile habitats cobbled together from asteroids."
 
 person "That Guy"
-	government "hingeCorp"
+	government "That Guy"
 	personality
 		plunders
 	phrase
@@ -432,6 +434,7 @@ person "That Guy"
 			"Look for me on Steam!"
 	ship "Origianl Korath World-Ship" "That Guy's Ship"
 		sprite "ship/Original World Ship"
+		"never disabled"
 		attributes
 			category "Heavy Freighter"
 			cost 4000000
