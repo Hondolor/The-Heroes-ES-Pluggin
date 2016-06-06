@@ -332,6 +332,11 @@ person "toilethinges"
 			shields 47000
 			"turret mounts" 8
 			"weapon capacity" 3140
+			weapon
+				"blast radius" 10000
+				"shield damage" 100000
+				"hull damage" 0
+				"hit force" 30000
 		outfits
 			Hyperdrive
 			"Jump Drive"
