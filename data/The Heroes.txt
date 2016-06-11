@@ -481,3 +481,103 @@ person "That Guy"
 		explode "big explosion" 40
 		explode "huge explosion" 50
 		description "Korath World-Ships are mobile habitats cobbled together from asteroids."
+
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+person "Storm Crow"
+	government "Ascendancy"
+	frequency 1000
+	personality
+		plunders
+	phrase
+		word
+			"Storm Crow descending, winter unending. Storm Crow departing, summer is starting."
+	ship "Kar Ik Vot 349" "Storm Crow"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 41280000
+			automaton 1
+			"cargo space" 87
+			drag 16.8
+			"engine capacity" 173
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 65400
+			mass 1350
+			"outfit space" 1054
+			"self destruct" 0.8
+			shields 57200
+			"turret mounts" 8
+			"weapon capacity" 447
+		outfits
+			"Mass Expansion" 3
+			"Fuel Pod" 2
+			Ramscoop 2
+			"Korath Warder" 2
+			"Steering (Planetary Class)"
+			"Small Heat Shunt" 2
+			"Triple Plasma Core"
+			"Thruster (Stellar Class)"
+			"Large Heat Shunt" 4
+			"Nanotech Battery"
+			"Quarg Skylance" 6
+			"Quantum Shield Generator"
+			"Jump Drive"
+		fuel 600
+		shields 57200
+		hull 65400
+		position 916.0975 941.33022
+		engine -24 237
+		engine 24 237
+		gun -8 -212
+		gun 8 -212
+		gun -16 -158
+		gun 16 -158
+		turret -37 -150 "Quarg Skylance"
+		turret 37 -150 "Quarg Skylance"
+		turret -38 -132 "Quarg Skylance"
+		turret 38 -132 "Quarg Skylance"
+		turret -40 -111 "Quarg Skylance"
+		turret 40 -111 "Quarg Skylance"
+		turret -102 188 "Korath Warder"
+		turret 102 188 "Korath Warder"
+		explode "big explosion" 50
+		explode "medium explosion" 70
+		explode "huge explosion" 15
+		explode "small explosion" 60
+		explode "tiny explosion" 120
+		
+		
+ship "Kar Ik Vot 349" "Storm Crow"
+	"never disabled"
+	outfits
+		"Mass Expansion" 3
+		"Fuel Pod" 2
+		Ramscoop 2
+		"Korath Warder" 2
+		"Steering (Planetary Class)"
+		"Small Heat Shunt" 2
+		"Triple Plasma Core"
+		"Thruster (Stellar Class)"
+		"Large Heat Shunt" 4
+		"Nanotech Battery"
+		"Quarg Skylance" 6
+		"Quantum Shield Generator"
+		"Jump Drive"
+	turret -37 -150 "Quarg Skylance"
+	turret 37 -150 "Quarg Skylance"
+	turret -38 -132 "Quarg Skylance"
+	turret 38 -132 "Quarg Skylance"
+	turret -40 -111 "Quarg Skylance"
+	turret 40 -111 "Quarg Skylance"
+	turret -102 188 "Korath Warder"
+	turret 102 188 "Korath Warder"
+	
+	
+government Ascendancy
+	swizzle 6
+	color 0 0 0
+	
+	"player reputation" 0
