@@ -481,3 +481,82 @@ person "That Guy"
 		explode "big explosion" 40
 		explode "huge explosion" 50
 		description "Korath World-Ships are mobile habitats cobbled together from asteroids."
+
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+government "Republika Kartara"
+	swizzle 3
+	"player reputation" 0
+	
+ship "Artiljerija"
+	"never disabled"
+	sprite "ship/kar ik vot 349"
+	attributes
+		category "Heavy Warship"
+		"cost" 41280000
+		"shields" 163200
+		"hull" 78100
+		"automaton" 1
+		"mass" 1350
+		"drag" 16.8
+		"heat dissipation" .5
+		"fuel capacity" 4000
+		"outfit space" 10540
+		"weapon capacity" 4470
+		"engine capacity" 1730
+		"ramscoop" 3
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Thunderhead Launcher" 4
+		"Wanderer Anti-Missile" 2
+		"Korath Repeater Turret" 4
+		"Korath Slicer Turret" 2
+		"Thunderhead Missile" 240 #More than max capacity, is that allowed?
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)" 3
+		"Large Heat Shunt" 8
+		"Small Heat Shunt" 4
+		"Thruster (Stellar Class)" 3 #Extreme Speed, is that allowed?
+		"Steering (Stellar Class)" 3 #Extreme Agility, is that allowed?
+		Hyperdrive
+		"Jump Drive"
+	engine -24 237
+	engine 24 237
+	gun -8 -212 "Thunderhead Launcher"
+	gun 8 -212 "Thunderhead Launcher"
+	gun -16 -158 "Thunderhead Launcher"
+	gun 16 -158 "Thunderhead Launcher"
+	turret -37 -150 "Korath Slicer Turret"
+	turret 37 -150 "Korath Slicer Turret"
+	turret -38 -132 "Korath Repeater Turret"
+	turret 38 -132 "Korath Repeater Turret"
+	turret -40 -111 "Korath Repeater Turret"
+	turret 40 -111 "Korath Repeater Turret"
+	turret -102 188 "Wanderer Anti-Missile"
+	turret 102 188 "Wanderer Anti-Missile"
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "big explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	
+person "Kaneo Takarada"
+	government "Republika Kartara"
+	personality
+		plunders
+	phrase
+		word
+			"It is I, the frenchiest of the fries."
+			"8-5-12-12-15!"
+			"Test hail, please ignore."
+			"NO, NOT THE BEES! AAAUGH, THEY'RE IN THE COCKPIT!"
+			"You thought this was going to be Takarda Kaneo, BUT IT WAS I, DIO!"
+	ship "Artiljerija"
+	
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
