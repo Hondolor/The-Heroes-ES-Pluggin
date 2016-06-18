@@ -649,3 +649,105 @@ person "Derpy Horse"
 		word
 			"Watch what you say on the forums!"
 	ship "Derp Ship"
+
+#//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+person "Storm Crow"
+	government "Ascendancy"
+	frequency 1000
+	personality
+		plunders
+	phrase
+		word
+			"Storm Crow descending, winter unending. Storm Crow departing, summer is starting."
+	ship "Apollo" "STURM CROW APLO"
+		"never disabled"
+	
+	
+variant "Apollo" "STURM CROW APLO"
+	outfits
+		"Sunbeam" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"Kindle-Class Power Pack"
+		"Conflagration-Class Power Pack"
+		"D23-QP Shield Generator"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Large Radar Jammer"
+		
+		Hyperdrive
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+	gun -15.5 -165.1 "Sunbeam"
+	gun -20.5 -154.6 "Sunbeam"
+	gun 21 -165 "Sunbeam"
+	gun 26 -154.6 "Sunbeam"
+	
+ship "Apollo"
+	sprite "ship/Apollo"
+	attributes
+		category "Heavy Warship"
+		"cost" 15200000
+		"shields" 21400
+		"hull" 8300
+		"required crew" 85
+		"bunks" 120
+		"mass" 800
+		"drag" 17.7
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 790
+		"weapon capacity" 345
+		"engine capacity" 190
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+		"Heavy Electron Turret" 2
+		"Electron Beam" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"Kindle-Class Power Pack"
+		"Conflagration-Class Power Pack"
+		"D23-QP Shield Generator"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Large Radar Jammer"
+		
+		Hyperdrive
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		
+	engine -16 184
+	engine 21 184
+	gun -15.5 -165.1 "Electron Beam"
+	gun -20.5 -154.6 "Electron Beam"
+	gun 21 -165 "Electron Beam"
+	gun 26 -154.6 "Electron Beam"
+	turret 0 -78 "Heavy Electron Turret"
+	turret 0 -3 "Heavy Electron Turret"
+	turret 23 118 "Heavy Anti-Missile Turret"
+	turret -18 118 "Heavy Anti-Missile Turret"
+	fighter 52 -0.5
+	fighter -45 -0.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Apollo is the largest and most advanced warship developed by the Enclave so far, somewhere between the ruisers and the Carriers of the Republic in terms of size. The Apollo is able to carry two fighters in its bays, usually Darts. Despite its size, the Apollo is fairly maneuverable, capable of matching many interceptors in combat."
+	description "	The Apollo was named after the series of missions during the second half of the 20th century which allowed humanity to set foot on a stellar object other than Earth for the first time."
+	
+	
+government Ascendancy
+	swizzle 6
+	color 0 0 0
+	
+	"player reputation" 0
