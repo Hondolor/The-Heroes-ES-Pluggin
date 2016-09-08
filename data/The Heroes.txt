@@ -268,12 +268,12 @@ person "Captain Evens"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-government "hingeCorp"
+government "hingeCode"
 	swizzle 5
 	"player reputation" 1
 
 person "toilethinges"
-	government "hingeCorp"
+	government "hingeCode"
 	personality
 		plunders
 	phrase
@@ -303,10 +303,10 @@ person "toilethinges"
 			" on steampowered.com."
 			" on Steam."
 		word
-			` Just go to groups, and search 'hingeCorp.'`
+			` Just go to groups, and search 'hingeCode.'`
 	phrase
 		word
-			`Join "hingeCorp" now!`
+			`Join "hingeCode" now!`
 		word
 			" Just search for it in the Steam groups section, and you'll find it."
 	ship "Korath World-Ship" "h.C.S. Chrysoprase"
