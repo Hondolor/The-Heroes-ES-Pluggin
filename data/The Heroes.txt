@@ -269,106 +269,71 @@ person "Captain Evens"
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 government "hingeCode"
-	swizzle 5
+	swizzle 1
 	"player reputation" 1
 
 person "toilethinges"
 	government "hingeCode"
 	personality
-		plunders
+		harvests forbearing heroic mining
 	phrase
 		word
-			"I hope"
-			"I commend"
-			"I request"
-		word
-			" that you would"
-		word
-			" view"
-			" search for"
-			" find"
-			" search out"
-		word
-			" my"
-			" our"
-		word
-			" group"
-			" company"
-			" corporation"
-			" club"
-		word
-			" page"
-			" website"
-		word
-			" on steampowered.com."
-			" on Steam."
-		word
-			` Just go to groups, and search 'hingeCode.'`
-	phrase
-		word
-			`Join "hingeCode" now!`
-		word
-			" Just search for it in the Steam groups section, and you'll find it."
-	ship "Korath World-Ship" "h.C.S. Chrysoprase"
-		sprite "ship/world-ship a"
-		"never disabled"
+			"If your guns aren't working, try unplugging them, waiting ten seconds, and then plugging them back in."
+			"If your guns aren't working, make sure they're getting energy."
+			"I've heard there are scientists on the planet Bounty who are studying a strange cosmic anomaly."
+			"I've heard tales of systems that are not connected by hyperspace links across the galaxy."
+			"A friend of mine told me that there are some massive alien warships raiding human space. He didn't tell me where, though."
+			"A friend of mine told me that he found some friendly squirrel aliens through a wormhole in unexplored territory. I don't belive him."
+			"I find it really suspicious how the Navy has built such as massive base on Farpoint, but don't have many ships stationed there."
+			"I've found that smuggling jobs for pirates can be pretty lucrative if you have the right ship."
+			"If you just shoot a couple merchants, I can get you set up with some of my pirate friends."
+			"The Syndicate sells cheap fissile material."
+			
+	ship "Wasp" "h.C.S. Chrysoprase"
+		sprite ship/wasp
 		attributes
-			category "Heavy Warship"
-			cost 27690000
-			bunks 1492
-			"cargo space" 264
-			drag 21
-			"engine capacity" 1350
-			"fuel capacity" 600
-			"heat dissipation" 0.4
-			hull 34000
-			mass 1735
-			"outfit space" 72800
-			"required crew" 800
-			shields 47000
-			"turret mounts" 8
-			"weapon capacity" 3140
-			weapon
-				"blast radius" 10000000
-				"shield damage" 1000000
-				"hull damage" 0
-				"hit force" 0
+			uncapturable
+			category Interceptor
+			cost 40000000
+			bunks 54
+			"cargo space" 14
+			drag 1.0
+			"engine capacity" 95
+			"fuel capacity" 800
+			"gun ports" 6
+			"heat dissipation" 0.8
+			hull 40750
+			mass 60
+			"outfit space" 777
+			"required crew" 1
+			shields 1500
+			"weapon capacity" 150
 		outfits
-			Hyperdrive
+			"Plasma Cannon" 6
+
+			"Fusion Reactor"
+			"LP576a Battery Pack"
+			"Large Repair Module" 10
+			"Liquid Helium Cooler"
+
+			"A370 Atomic Thruster"
+			"A375 Atomic Steering"
 			"Jump Drive"
-			"Triple Plasma Core" 11
-			"Large Heat Shunt" 30
-			"Steering (Stellar Class)" 2
-			"Thruster (Stellar Class)" 2
-			"Systems Core (Large)" 10
-			"Pug Gridfire Turret" 8
-			"Korath Detainer"
-			"Korath Piercer Launcher" 2
-			"Korath Piercer" 1000
-			"Pug Biodefenses" 800
-		crew 794
-		fuel 600
-		shields 47000
-		hull 34000
-		engine -37 343
-		engine 0 343
-		engine 37 343
-		turret -76 -157 "Pug Gridfire Turret"
-		turret 76 -157 "Pug Gridfire Turret"
-		turret -59 -135 "Pug Gridfire Turret"
-		turret 59 -135 "Pug Gridfire Turret"
-		turret -61 -6 "Pug Gridfire Turret"
-		turret 61 -6 "Pug Gridfire Turret"
-		turret -66 210 "Pug Gridfire Turret"
-		turret 66 210 "Pug Gridfire Turret"
-		gun 0.5 -340.5 "Korath Detainer"
-		gun -73.5 -163 "Korath Piercer Launcher"
-		gun 73.5 -163 "Korath Piercer Launcher"
-		explode "big explosion" 40
-		explode "small explosion" 45
-		explode "medium explosion" 50
-		explode "huge explosion" 50
-		explode "tiny explosion" 30
+		engine -6 33 1
+		engine 6 33 1
+		gun 0 -38 "Plasma Cannon"
+		gun 0 -38 "Plasma Cannon"
+		gun -13 -31 "Plasma Cannon"
+		gun -13 -31 "Plasma Cannon"
+		gun 13 -31 "Plasma Cannon"
+		gun 13 -31 "Plasma Cannon"
+		explode "tiny explosion" 207
+		explode "small explosion" 151
+		explode "medium explosion" 93
+		explode "large explosion" 72
+		explode "huge explosion" 38
+		explode "nuke explosion" 8
+		"final explode" "final explosion large"
 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
