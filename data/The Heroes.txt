@@ -280,7 +280,7 @@ person "toilethinges"
 		word
 			"If your guns aren't working, try unplugging them, waiting ten seconds, and then plugging them back in."
 			"If your guns aren't working, make sure they're getting energy."
-			"I've heard there are scientists on the planet Bounty who are studying a strange cosmic anomaly."
+			"I've heard there are scientists near the south of the Deep who are studying a strange cosmic anomaly."
 			"I've heard tales of systems that are not connected by hyperspace links across the galaxy."
 			"A friend of mine told me that there are some massive alien warships raiding human space. He didn't tell me where, though."
 			"A friend of mine told me that he found some friendly squirrel aliens through a wormhole in unexplored territory. I don't belive him."
